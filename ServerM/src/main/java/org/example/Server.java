@@ -17,10 +17,6 @@ import javax.mail.internet.MimeMessage;
 
 /**
  * C/S架构的服务端对象。
- * <p>
- * 创建时间：2010-7-18 上午12:17:37
- * @author HouLei
- * @since 1.0
  */
 public class Server {
 
@@ -131,7 +127,6 @@ public class Server {
 
         private void sendEmailAlert() {
             // 创建邮件会话
-            // ofdzcgzgwzskeacf
             String SMTP_HOST = "smtp.qq.com"; // SMTP服务器地址
             String FROM_EMAIL = "***********@qq.com"; // 发件人邮箱
             String FROM_EMAIL_PASSWORD = "*********"; // 授权码
