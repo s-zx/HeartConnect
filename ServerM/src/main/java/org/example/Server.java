@@ -133,9 +133,9 @@ public class Server {
             // 创建邮件会话
             // ofdzcgzgwzskeacf
             String SMTP_HOST = "smtp.qq.com"; // SMTP服务器地址
-            String FROM_EMAIL = "2575376715@qq.com"; // 发件人邮箱
-            String FROM_EMAIL_PASSWORD = "ofdzcgzgwzskeacf"; // 发件人邮箱密码
-            String TO_EMAIL = "534664357@qq.com"; // 收件人邮箱
+            String FROM_EMAIL = "***********@qq.com"; // 发件人邮箱
+            String FROM_EMAIL_PASSWORD = "*********"; // 授权码
+            String TO_EMAIL = "**********@qq.com"; // 收件人邮箱
             String SUBJECT = "服务端心跳异常报警"; // 邮件主题
             String content = "服务端已经 " + (receiveTimeDelay / 1000) + " 秒没有收到客户端心跳了，请及时处理！"; // 邮件内容
 
